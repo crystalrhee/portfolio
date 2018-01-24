@@ -11,7 +11,7 @@ Crystal Rhee's Personal Website
 ## Dependencies
 
 ### CSS
-* [Sass](http://sass-lang.com/), Sass is the most mature, stable, and powerful professional grade CSS extension language in the world..
+* style and animation
 
 ### JavaScript
 * [jQuery](https://jquery.com/), jQuery is a fast, small, and feature-rich JavaScript library.
@@ -23,15 +23,10 @@ Credits:
 		aj@lkn.io
 		license: CCA 3.0 free for personal and commercial use
 
-	Demo Images:
-		Unsplash (unsplash.com)
-
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
 
 	Other:
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 Pie (css3pie.com)
-		background-size polyfill (github.com/louisremi)
 		Respond.js (j.mp/respondjs)
 		Skel (skel.io)
