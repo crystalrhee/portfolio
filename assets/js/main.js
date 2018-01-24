@@ -1,9 +1,3 @@
-/*
-	Photon by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
 	skel.breakpoints({
@@ -18,31 +12,36 @@
 	$(function() {
 
 		var	$window = $(window),
-			$body = $('body');
+		$body = $('body');
 
-		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
+		$body.addClass('is-loading');
 
-			$window.on('load', function() {
-				window.setTimeout(function() {
-					$body.removeClass('is-loading');
-				}, 250);
-			});
+		$window.on('load', function() {
+			window.setTimeout(function() {
+				$body.removeClass('is-loading');
+			}, 250);
+		});
 
-		// Fix: Placeholder polyfill.
-			$('form').placeholder();
+		$('form').placeholder();
 
-		// Prioritize "important" elements on mobile.
-			skel.on('+mobile -mobile', function() {
-				$.prioritize(
-					'.important\\28 mobile\\29',
-					skel.breakpoint('mobile').active
+		skel.on('+mobile -mobile', function() {
+			$.prioritize(
+				'.important\\28 mobile\\29',
+				skel.breakpoint('mobile').active
 				);
-			});
+		});
 
-		// Scrolly.
-			$('.scrolly').scrolly();
+		$('.scrolly').scrolly();
 
+		$('.map').hover(
+			function () {$(this).addClass('scale');}, 
+			function () {$(this).removeClass('scale');}
+		);
+
+		$('.map ul li').hover(
+			function () {$(this).addClass('animate');}, 
+			function () {$(this).removeClass('animate');}
+		);
 	});
 
 })(jQuery);

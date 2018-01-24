@@ -8,6 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 </head>
@@ -17,9 +18,9 @@
 		<div class="inner">
 			<span class="icon major fa-user"></span>
 			<h1>Hi, I'm <strong>Crystal</strong>, an aspiring<br />
-				software developer at <a href="http://www.northeastern.edu/">Northeastern University</a>.
+				software developer at <a href="http://www.northeastern.edu/" target="_blank">Northeastern University</a>.
 			</h1>
-			<p>Welcome</p>
+			<p>Nice to meet you.</p>
 			<ul class="actions">
 				<li><a href="#one" class="button scrolly">Learn More</a></li>
 			</ul>
@@ -51,32 +52,84 @@
 			<div class="row 150%">
 				<div class="6u 12u$(medium)">
 					<ul class="major-icons">
-						<li><span class="icon style1 major fa-html5"></span></li>
-						<li><span class="icon style2 major fa-css3"></span></li>
-						<li><span class="icon style3 major fa-code"></span></li>
-						<li><span class="icon style4 major fa-html5"></span></li>
-						<li><span class="icon style5 major fa-html5"></span></li>
-						<li><span class="icon style6 major fa-html5"></span></li>
+						<li><span class="icon style1 major"><i class="devicon-html5-plain"></i></span></li>
+						<li><span class="icon style2 major"><i class="devicon-css3-plain"></i></span></li>
+						<li><span class="icon style3 major"><i class="devicon-javascript-plain"></i></span></li>
+						<li><span class="icon style4 major"><i class="devicon-python-plain"></i></span></li>
+						<li><span class="icon style5 major"><i class="devicon-java-plain"></i></span></li>
+						<li><span class="icon style6 major"><i class="devicon-laravel-plain"></i></span></li>
 					</ul>
 				</div>
 				<div class="6u$ 12u$(medium)">
 					<header class="major">
 						<h2>Skills</h2>
 					</header>
-					<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-					<p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
+					
 					<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section id="three" class="main style1 special">
+	<section id="three" class="main style3">
+		<div class="map education">
+			<h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>Education</h3>
+			<ul>
+				<li date-is='September 2015 - Now'>
+					<span>Northeastern University</span>
+					<small>Candidate for B.S. in Computer Science and Finance</small>
+					<small>Boston, Ma</small>
+				</li>
+				<li date-is='September 2011 - May 2015'>
+					<span>Belmont High School</span>
+					<small>High School Diploma</small>
+					<small>Belmont, MA</small>
+				</li>
+			</ul>
+		</div>
+		<div class="map work">
+			<h3><i class="fa fa-briefcase" aria-hidden="true"></i>Work Experience</h3>
+			<ul>
+				<li date-is='July 2017 - Now'>
+					<span>MullenLowe Group</span>
+					<small>Development Co-op</small>
+					<small>Boston, MA</small>
+				</li>
+				<li date-is='February 2016 - May 2017'>
+					<span>Northeastern University Office of Provost</span>
+					<small>Digital Content Specialist</small>
+					<small>Boston, MA</small>
+				</li>
+				<li date-is='October 2016 - April 2017'>
+					<span>New England Inflammation and Tissue Protection Insitute</span>
+					<small>Office Assistant</small>
+					<small>Boston, MA</small>
+				</li>
+				<li date-is='January 2016 - May 2016'>
+					<span>D'Amore-McKim School of Business</span>
+					<small>Computer Operations Assistant</small>
+					<small>Boston, MA</small>
+				</li>
+				<li date-is='September 2015 - December 2015'>
+					<span>Northeastern University Snell Library</span>
+					<small>Digitization Assistant</small>
+					<small>Boston, MA</small>
+				</li>
+				<li date-is='June 2014 - August 2014'>
+					<span>Qalya Labs Incorporated</span>
+					<small>Start-up Intern</small>
+					<small>Boston, MA</small>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="four" class="main style1 special">
 		<div class="container">
 			<header class="major">
 				<h2>Projects</h2>
 			</header>
-			<p>Client Projects</p>
+			<h3>Client Projects</h3>
 			<div class="row 150%">
 				<div class="4u 12u$(medium)">
 					<span class="image fit"><img src="images/projects/alz.jpg" alt="Pure Imagination" class="project-image"/></span>
@@ -189,7 +242,7 @@
 		</div>
 	</section>
 
-	<section id="four" class="main style2 special">
+	<section id="five" class="main style2 special">
 		<div class="container">
 			<header class="major">
 				<h2>Let's Talk</h2>
