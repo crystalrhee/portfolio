@@ -31,7 +31,7 @@
 				);
 		});
 
-		$('.scrolly').scrolly();
+		// $('.scrolly').scrolly();
 
 		$('.map').hover(
 			function () {$(this).addClass('scale');}, 
