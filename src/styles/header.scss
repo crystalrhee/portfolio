@@ -1,0 +1,36 @@
+@import "global.scss";
+
+ul li {
+  display: inline-block;
+}
+
+#logo {
+  display: inline-block;
+  position: relative;
+
+  span {
+    background: $colorFour;
+    border-radius: 10px;
+    display: block;
+    height: 3px;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: 8px;
+    width: 100%;
+
+    &:nth-child(1) {
+      transform: rotate(125deg);
+    }
+
+    &:nth-child(3) {
+      transform: rotate(-125deg);
+    }
+  }
+}
+
+.nav-icon {
+  color: $colorThree;
+  width: 24px;
+  height: 24px;
+}

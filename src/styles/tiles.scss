@@ -1,0 +1,25 @@
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  
+  .tile {
+    margin: 0 15px 15px 15px;
+    overflow: hidden;
+    width: 15vw;
+    height: 15vw;
+    img {
+      width: 100%;
+    }
+
+    &:nth-child(n + 4) {
+      margin: 15px;
+    }
+
+    &:hover {
+      filter: brightness(50%);
+    }
+  }
+}

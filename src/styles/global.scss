@@ -1,0 +1,41 @@
+$colorOne: #EBF0F6;
+$colorTwo: #D5E1F7;
+$colorThree: #C8D7EE;
+$colorFour: #CFD4EA;
+$colorFive: #F1D3EB;
+$colorSix: #F4DCEC;
+
+body {
+  background-color: $colorOne;
+}
+
+header,
+footer {
+  background-color: white;
+  width: 100%;
+  z-index: 1
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.space-between { 
+  justify-content: space-between; 
+} 
+
+.flex-item {
+  padding: 5px;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}

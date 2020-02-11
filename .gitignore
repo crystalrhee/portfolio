@@ -3,3 +3,9 @@
 sass
 sass/*
 */sass
+
+public
+public/*
+
+.cache
+node_modules
