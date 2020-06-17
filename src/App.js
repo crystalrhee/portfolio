@@ -11,7 +11,7 @@ function App() {
   return (
     <Layout>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/portfolio">
           <About />
         </Route>
         <Route path="/education">
