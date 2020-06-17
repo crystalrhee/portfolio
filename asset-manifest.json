@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/crystalrhee/static/css/main.4126453f.chunk.css",
+    "main.js": "/crystalrhee/static/js/main.468f1cbf.chunk.js",
+    "main.js.map": "/crystalrhee/static/js/main.468f1cbf.chunk.js.map",
+    "runtime-main.js": "/crystalrhee/static/js/runtime-main.d51bbdd1.js",
+    "runtime-main.js.map": "/crystalrhee/static/js/runtime-main.d51bbdd1.js.map",
+    "static/css/2.86458300.chunk.css": "/crystalrhee/static/css/2.86458300.chunk.css",
+    "static/js/2.282817b6.chunk.js": "/crystalrhee/static/js/2.282817b6.chunk.js",
+    "static/js/2.282817b6.chunk.js.map": "/crystalrhee/static/js/2.282817b6.chunk.js.map",
+    "index.html": "/crystalrhee/index.html",
+    "precache-manifest.3462f05f65196b1529ce89146a01a71d.js": "/crystalrhee/precache-manifest.3462f05f65196b1529ce89146a01a71d.js",
+    "service-worker.js": "/crystalrhee/service-worker.js",
+    "static/css/2.86458300.chunk.css.map": "/crystalrhee/static/css/2.86458300.chunk.css.map",
+    "static/css/main.4126453f.chunk.css.map": "/crystalrhee/static/css/main.4126453f.chunk.css.map",
+    "static/js/2.282817b6.chunk.js.LICENSE.txt": "/crystalrhee/static/js/2.282817b6.chunk.js.LICENSE.txt",
+    "static/media/alz.jpg": "/crystalrhee/static/media/alz.09f03df7.jpg",
+    "static/media/avatar-crop.png": "/crystalrhee/static/media/avatar-crop.1ab9aa13.png",
+    "static/media/boston-cares.png": "/crystalrhee/static/media/boston-cares.59f8ea14.png",
+    "static/media/byob.jpg": "/crystalrhee/static/media/byob.2fca84d6.jpg",
+    "static/media/font-awesome.min.css": "/crystalrhee/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/hackumass.png": "/crystalrhee/static/media/hackumass.07b15b44.png",
+    "static/media/neu.png": "/crystalrhee/static/media/neu.b5548a76.png",
+    "static/media/pieinsky.png": "/crystalrhee/static/media/pieinsky.07c3602f.png",
+    "static/media/profile.jpg": "/crystalrhee/static/media/profile.f6e52e2c.jpg",
+    "static/media/seeing-home.png": "/crystalrhee/static/media/seeing-home.b8333ca3.png",
+    "static/media/tsinghua.png": "/crystalrhee/static/media/tsinghua.88a2d7c8.png",
+    "static/media/ulta.jpg": "/crystalrhee/static/media/ulta.9989fa88.jpg",
+    "static/media/usc.png": "/crystalrhee/static/media/usc.f484b143.png",
+    "static/media/whenwebake.jpg": "/crystalrhee/static/media/whenwebake.5a141501.jpg",
+    "static/media/yonsei.png": "/crystalrhee/static/media/yonsei.a09e1d85.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d51bbdd1.js",
+    "static/css/2.86458300.chunk.css",
+    "static/js/2.282817b6.chunk.js",
+    "static/css/main.4126453f.chunk.css",
+    "static/js/main.468f1cbf.chunk.js"
+  ]
+}
