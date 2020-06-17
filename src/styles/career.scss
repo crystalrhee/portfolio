@@ -1,0 +1,88 @@
+@import "./global.scss";
+
+#career {
+  h3 {
+    font-size: 14px;
+  }
+  p {
+    line-height: 20px;
+  }
+
+  b,
+  code,
+  small {
+    color: $dark;
+    display: block;
+  }
+
+  small {
+    margin-bottom: 10px;
+  }
+}
+
+.timeline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  h3,
+  p {
+    color: $white;
+  }
+  
+  li {
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background: $secondary;
+
+    &:after {
+      background: inherit;
+      border-radius: 50%;
+      bottom: 0;
+      content: "";
+      height: 25px;
+      left: 50%;
+      position: absolute;
+      transform: translateX(-50%);
+      width: 25px;
+    }
+
+    div {
+      position: relative;
+      bottom: 0;
+      width: 300px;
+      padding: 15px;
+      background: $primary;
+
+      &:before {
+        content: "";
+        position: absolute;
+        bottom: 7px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+      }
+
+      &.flag-r {
+        left: 50px;
+        &:before {
+          left: -15px;
+          border-width: 8px 16px 8px 0;
+          border-color: transparent $primary transparent transparent;
+        }
+      }
+
+      &.flag-l {
+        left: -375px;
+        &:before {
+          right: -15px;
+          border-width: 8px 0 8px 16px;
+          border-color: transparent transparent transparent $primary;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+$background: #f6f6f6;
+$white: #ffffff;
+$primary: #ed9d9d;
+$secondary: #ffe9e9;
+$dark: #5c5c5c;
+
+body {
+  background-color: $background;
+}
+
+main {
+  background-color: $white;
+  box-shadow: 1px 1px 5px #ccc;
+  margin: 70px auto;
+  max-width: 1024px;
+}
+
+section {
+  padding: 30px;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: $dark;
+  font-family: Source Sans Pro, sans-serif;
+  line-height: 2.34rem;
+  margin: 0 0 0.56rem 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 200;
+  text-rendering: optimizeLegibility;
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: 200;
+  text-rendering: optimizeLegibility;
+  font-size: 1.51572rem;
+}
+
+h3 {
+  font-weight: 200;
+  text-rendering: optimizeLegibility;
+  font-size: 1rem;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 900;
+}
