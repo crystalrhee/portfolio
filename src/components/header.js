@@ -14,7 +14,7 @@ const Header = () => (
       <div className="profile-info">
         <h1 id="name">Crystal Rhee</h1>
         <p>Frontend Engineer & Web Application Developer</p>
-        <p>based in Boston</p>
+        <p>Based in Boston</p>
         <div>
           <span>
             <i className="fa fa-facebook inactive"></i>
