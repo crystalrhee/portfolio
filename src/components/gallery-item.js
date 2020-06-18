@@ -28,17 +28,17 @@ class GalleryItem extends Component {
                 <h2 class="title">{this.props.title}</h2>
                 <p class="line subtitle">{this.props.client}</p>
                 {this.props.projectLink ? (
-                  <a href={this.props.projectLink} class="line subtitle">
+                  <a href={this.props.projectLink} class="line subtitle" target="_blank">
                     Github
                   </a>
                 ) : null}
                 {this.props.demoLink ? (
-                  <a href={this.props.demoLink} class="line subtitle">
+                  <a href={this.props.demoLink} class="line subtitle" target="_blank">
                     Demo
                   </a>
                 ) : null}
                 {this.props.pressLink ? (
-                  <a href={this.props.pressLink} class="line subtitle">
+                  <a href={this.props.pressLink} class="line subtitle" target="_blank">
                     Press
                   </a>
                 ) : null}
