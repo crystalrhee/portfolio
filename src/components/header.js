@@ -32,7 +32,7 @@ const Header = () => (
             <i className="fa fa-codepen active"></i>
           </a>
         </div>
-        <a href={Resume} target="_blank" class="button">Resume</a>
+        <a href={Resume} target="_blank" className="button">Resume</a>
       </div>
     </div>
     <Nav/>
