@@ -11,9 +11,9 @@ const Career = () => (
           <code>Frontend Engineer Co-op</code>
           <small>Redwood City, CA</small>
           <p>
-            Designed and developeed an internal tool diagnose and address
-            front-end dependency issues. The tool was used to decouple
-            dependencies to support future adaptation of microservice
+            Designed and developed an internal tool for diagnosing and
+            addressing front-end dependency issues. The tool was used to
+            decouple dependencies to support future adaptation of microservice
             architecture.
           </p>
         </div>

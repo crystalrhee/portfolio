@@ -60,3 +60,24 @@ p {
 .bold {
   font-weight: 900;
 }
+
+button,
+.button {
+  background: $primary;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  color: $white;
+  display: block;
+  transition: all 0.3s;
+  text-align: center;
+  text-transform: uppercase;
+
+  &:active {
+    opacity: 0.9;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}

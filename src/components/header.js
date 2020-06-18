@@ -1,7 +1,9 @@
 import React from "react";
 import Nav from "./nav.js";
+
 import "../styles/header-footer.scss";
 import profile from "../images/profile.jpg";
+import Resume from "../resume.pdf";
 
 const Header = () => (
   <header>
@@ -14,12 +16,12 @@ const Header = () => (
         <p>Frontend Engineer & Web Application Developer</p>
         <p>based in Boston</p>
         <div>
-          <a href="#">
+          <span>
             <i className="fa fa-facebook inactive"></i>
-          </a>
-          <a href="#">
+          </span>
+          <span>
             <i className="fa fa-twitter inactive"></i>
-          </a>
+          </span>
           <a href="https://www.linkedin.com/in/crystalrhee" target="_blank">
             <i className="fa fa-linkedin active"></i>
           </a>
@@ -30,6 +32,7 @@ const Header = () => (
             <i className="fa fa-codepen active"></i>
           </a>
         </div>
+        <a href={Resume} target="_blank" class="button">Resume</a>
       </div>
     </div>
     <Nav/>

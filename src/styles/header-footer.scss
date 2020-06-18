@@ -28,6 +28,7 @@ footer {
     border: 10px solid white;
     border-radius: 50%;
     height: 100%;
+    margin: -10px;
     width: 100%;
   }
 }
@@ -42,29 +43,36 @@ footer {
     font-size: 2.75rem;
     text-transform: uppercase;
   }
-  a {
+  a, span {
     margin: 0 5px;
-    i {
-      background-color: $primary;
-      border-radius: 50%;
-      color: $white;
-      height: 25px;
-      line-height: 25px;
-      text-align: center;
-      transition: all ease 0.5s;
-      width: 25px;
-      &.active {
-        &:hover {
-          filter: opacity(50%);
-        }
-      }
-      &.inactive {
-        background-color: #A9A9A9;
-        cursor: default;
-      }
-    }
     &:first-child {
       margin-left: 0;
     }
+  }
+  i {
+    background-color: $primary;
+    border-radius: 50%;
+    color: $white;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    transition: all ease 0.5s;
+    width: 25px;
+    &.active {
+      &:hover {
+        filter: opacity(50%);
+      }
+    }
+    &.inactive {
+      background-color: #a9a9a9;
+      cursor: default;
+    }
+  }
+
+  .button {
+    margin: 10px 0 0 0;
+    padding: 10px;
+    text-decoration: none;
+    width: 90px;
   }
 }

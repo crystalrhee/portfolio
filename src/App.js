@@ -5,6 +5,7 @@ import Education from "./pages/education.js";
 import Career from "./pages/career.js";
 import Projects from "./pages/projects.js";
 import Contact from './pages/contact.js';
+import NotFound from './pages/404.js';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/*" >
+          <NotFound />
         </Route>
       </Switch>
     </Layout>
