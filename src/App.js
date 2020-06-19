@@ -1,11 +1,11 @@
 import React from "react";
 import Layout from "./components/layout";
 import About from "./pages/about.js";
-import Education from "./pages/education.js";
+import Certifications from "./pages/certifications.js";
 import Career from "./pages/career.js";
 import Projects from "./pages/projects.js";
-import Contact from './pages/contact.js';
-import NotFound from './pages/404.js';
+import Contact from "./pages/contact.js";
+import NotFound from "./pages/404.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
         <Route exact path="/portfolio">
           <About />
         </Route>
-        <Route path="/portfolio/education">
-          <Education />
+        <Route path="/portfolio/certifications">
+          <Certifications />
         </Route>
         <Route path="/portfolio/career">
           <Career />
@@ -27,7 +27,7 @@ function App() {
         <Route path="/portfolio/contact">
           <Contact />
         </Route>
-        <Route path="/*" >
+        <Route path="/*">
           <NotFound />
         </Route>
       </Switch>
