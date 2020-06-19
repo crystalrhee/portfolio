@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7197473c37fbbb636d946aefed66e134",
+    "revision": "2c4bbd1d1e9bb25134898edaf542ab56",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "5fae8ab6b3af9a856c36",
+    "revision": "a86350cf646607953ac0",
     "url": "/portfolio/static/css/2.3d60f3ae.chunk.css"
   },
   {
-    "revision": "6f31454bbb8901ff6f8c",
-    "url": "/portfolio/static/css/main.01bdff8d.chunk.css"
+    "revision": "3a999cf408733034fac7",
+    "url": "/portfolio/static/css/main.b2152193.chunk.css"
   },
   {
-    "revision": "5fae8ab6b3af9a856c36",
-    "url": "/portfolio/static/js/2.b389736e.chunk.js"
+    "revision": "a86350cf646607953ac0",
+    "url": "/portfolio/static/js/2.155e9c17.chunk.js"
   },
   {
     "revision": "4ba1a1c11c57ed15aa68008707a3d6b4",
-    "url": "/portfolio/static/js/2.b389736e.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.155e9c17.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f31454bbb8901ff6f8c",
-    "url": "/portfolio/static/js/main.5f8225bd.chunk.js"
+    "revision": "3a999cf408733034fac7",
+    "url": "/portfolio/static/js/main.0333dc4c.chunk.js"
   },
   {
     "revision": "88fbd3d397ae3690d5f2",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1ab9aa13d6e602810aa2362045ffd55b",
     "url": "/portfolio/static/media/avatar-crop.1ab9aa13.png"
+  },
+  {
+    "revision": "c2fcf78a44a996dfe2fc9ba5ee617c74",
+    "url": "/portfolio/static/media/bloomberg.c2fcf78a.jpg"
   },
   {
     "revision": "59f8ea14104a6fd5c781a769ce92fb3b",
@@ -84,8 +88,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/resume.d7ab4eec.pdf"
   },
   {
-    "revision": "b8333ca379853d43257742a380bd84d2",
-    "url": "/portfolio/static/media/seeing-home.b8333ca3.png"
+    "revision": "c7a6a53964bb37cac1aa15c989604da4",
+    "url": "/portfolio/static/media/seeing-home.c7a6a539.png"
+  },
+  {
+    "revision": "8184f1eb908a22bdfbca593a33c77f2f",
+    "url": "/portfolio/static/media/tips.8184f1eb.jpeg"
   },
   {
     "revision": "88a2d7c8a7d16cf840f9985453724ce4",
