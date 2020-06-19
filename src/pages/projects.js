@@ -5,6 +5,7 @@ import {
   Alz,
   BostonCares,
   Byob,
+  Coffee,
   HackUmass,
   HuskyHacks,
   PieInSky,
@@ -34,6 +35,13 @@ class ProjectsPage extends Component {
           </div>
         </div>
         <ul className="gallery">
+          <GalleryItem
+            img={Coffee}
+            title="CSS Coffee"
+            client="Personal Project"
+            demoLink="https://crystalrhee.github.io/CSS-Coffee/"
+            projectLink="https://github.com/crystalrhee/CSS-Coffee/settings"
+          />
           <GalleryItem
             img={SeeingHome}
             title="Seeing Home"

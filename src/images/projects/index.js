@@ -1,6 +1,7 @@
 export const Alz = require('./alz.jpg');
 export const BostonCares = require('./boston-cares.png');
 export const Byob = require('./byob.jpg');
+export const Coffee = require('./css-coffee.png');
 export const HackUmass = require('./hackumass.png');
 export const HuskyHacks = require('./huskyhacks.jpg');
 export const PieInSky = require('./pieinsky.png');
