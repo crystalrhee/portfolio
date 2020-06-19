@@ -26,11 +26,11 @@ class ProjectsPage extends Component {
             <span className="tooltiptext">codebase</span>
           </div>
           <div className="tooltip">
-            <i className="fa fa-laptop"></i>
+            <i className="fa fa-link"></i>
             <span className="tooltiptext">demo</span>
           </div>
           <div className="tooltip">
-            <i className="fa fa-link"></i>
+            <i className="fa fa-rss-square"></i>
             <span className="tooltiptext">press</span>
           </div>
         </div>

@@ -33,12 +33,12 @@ class GalleryItem extends Component {
               ) : null}
               {this.props.demoLink ? (
                 <a href={this.props.demoLink} target="_blank">
-                  <i className="fa fa-laptop"></i>
+                  <i className="fa fa-link"></i>
                 </a>
               ) : null}
               {this.props.pressLink ? (
                 <a href={this.props.pressLink} target="_blank">
-                  <i className="fa fa-link"></i>
+                  <i className="fa fa-rss-square"></i>
                 </a>
               ) : null}
             </div>
