@@ -6,6 +6,7 @@ import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from "react-router-dom";
 
 import "font-awesome/css/font-awesome.min.css";
+import "@fortawesome/fontawesome-free-solid";
 import "./index.css";
 
 ReactDOM.render(

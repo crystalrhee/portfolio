@@ -14,10 +14,24 @@ main {
   margin: 70px auto;
   max-width: 1024px;
   min-width: 1024px;
+  padding-bottom: 70px;;
 }
 
 section {
   padding: 30px;
+  position: relative;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+
+  li {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 h1,

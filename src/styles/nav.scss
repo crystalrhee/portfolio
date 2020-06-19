@@ -6,25 +6,16 @@ nav {
   width: 100%;
   text-align: center;
 
-  ul {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    list-style: none;
+  li {
+    float: left;
 
-    li {
-      margin: 0;
-      padding: 0;
-      float: left;
-
-      a {
-          color: $dark;
-        text-decoration: none;
-        padding: 30px 30px;
-        display: block;
-        text-align: center;
-        text-transform: uppercase;
-      }
+    a {
+      color: $dark;
+      text-decoration: none;
+      padding: 30px 30px;
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
     }
   }
 }
