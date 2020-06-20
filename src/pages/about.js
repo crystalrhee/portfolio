@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar from "../images/avatar-crop.png";
+import Avatar from "../images/pixel-profile.png";
 import "../styles/about.scss";
 
 const AboutPage = () => (
