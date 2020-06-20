@@ -11,7 +11,7 @@
   b,
   code,
   small {
-    color: $dark;
+    color: $secondary;
     display: block;
   }
 
@@ -29,6 +29,10 @@
   h3,
   p {
     color: $white;
+  }
+
+  p {
+    padding-top: 10px;
   }
   
   li {
