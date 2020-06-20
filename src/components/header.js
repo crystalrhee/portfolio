@@ -2,14 +2,14 @@ import React from "react";
 import Nav from "./nav.js";
 
 import "../styles/header-footer.scss";
-import profile from "../images/profile.jpg";
+import Profile from "../images/profile.jpg";
 import Resume from "../resume.pdf";
 
 const Header = () => (
   <header>
     <div className="profile">
       <div className="profile-img">
-        <img src={profile} alt="Profile" />
+        <img src={Profile} alt="Profile" />
       </div>
       <div className="profile-info">
         <h1 id="name">Crystal Rhee</h1>
