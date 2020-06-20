@@ -21,7 +21,7 @@ const AboutPage = () => (
       <p className="uppercase bold">Hello, there</p>
       <h1>I'm Crystal Rhee</h1>
       <p>
-        I'm a 23 year old software engineer from Boston, MA, specializing in
+        I'm a software engineer from Boston, MA, specializing in
         frontend development.
       </p>
       <p>
