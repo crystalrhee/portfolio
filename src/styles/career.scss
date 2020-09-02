@@ -43,6 +43,10 @@
     padding-top: 30px;
     background: $secondary;
 
+    @include mobile {
+      background: white;
+    }
+
     &:after {
       background: inherit;
       border-radius: 50%;
@@ -53,6 +57,10 @@
       position: absolute;
       transform: translateX(-50%);
       width: 25px;
+
+      @include mobile {
+        display: none;
+      }
     }
 
     div {
@@ -61,6 +69,10 @@
       width: 300px;
       padding: 15px;
       background: $primary;
+
+      @include mobile {
+        width: 270px;
+      }
 
       &:before {
         content: "";
@@ -73,6 +85,11 @@
 
       &.flag-r {
         left: 50px;
+
+        @include mobile {
+          left: -145px;
+        }
+
         &:before {
           left: -15px;
           border-width: 8px 16px 8px 0;
@@ -82,6 +99,11 @@
 
       &.flag-l {
         left: -375px;
+
+        @include mobile {
+          left: -145px;
+        }
+
         &:before {
           right: -15px;
           border-width: 8px 0 8px 16px;

@@ -24,9 +24,9 @@ function App() {
         <Route path="/portfolio/projects">
           <Projects />
         </Route>
-        <Route path="/portfolio/contact">
+        {/* <Route path="/portfolio/contact">
           <Contact />
-        </Route>
+        </Route> */}
         <Route path="/*">
           <NotFound />
         </Route>

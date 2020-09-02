@@ -1,4 +1,5 @@
-@import "./global.scss";
+@import "global.scss";
+@import "_mixins.scss";
 
 .gallery {
   display: flex;
@@ -15,6 +16,10 @@
   height: 190px;
   width: 25%;
   padding: 10px;
+
+  @include mobile {
+    width: 43%;
+  }
 }
 
 .wrapper {
@@ -98,6 +103,10 @@
   width: 100%;
   text-align: right;
   margin-bottom: 35px;
+
+  @include mobile {
+    display: none;
+  }
 }
 
 .tooltip {

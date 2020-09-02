@@ -1,8 +1,5 @@
-$background: #f9f7f7;
-$white: #ffffff;
-$primary: #3f72af;
-$secondary: #dbe2ef;
-$dark: #112d4e;
+@import "_variables.scss";
+@import "_mixins.scss";
 
 body {
   background-color: $background;
@@ -12,9 +9,18 @@ main {
   background-color: $white;
   box-shadow: 1px 1px 5px #ccc;
   margin: 70px auto;
-  max-width: 1024px;
-  min-width: 1024px;
-  padding-bottom: 70px;;
+  padding-bottom: 70px;
+  width: 1024px;
+
+  @include tablet {
+    margin: 0;
+    width: 100%;
+	}
+
+	@include mobile {
+    margin: 70px 0;
+		width: 100%;
+	}
 }
 
 section {

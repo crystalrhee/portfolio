@@ -6,9 +6,19 @@ nav {
   width: 100%;
   text-align: center;
 
+  @include mobile {
+    height: 30px;
+    padding-top: 30px;
+  }
+
   li {
     float: left;
 
+    @include mobile {
+      background-color: $secondary;
+      display: flex;
+    }
+    
     a {
       color: $dark;
       text-decoration: none;
@@ -16,6 +26,12 @@ nav {
       display: block;
       text-align: center;
       text-transform: uppercase;
+    
+      @include mobile {
+        background-color: white;
+        font-size: 70%;
+        padding: 10px;
+      }
     }
   }
 }

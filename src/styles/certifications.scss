@@ -17,6 +17,14 @@
   padding: 2em 10px;
   text-align: center;
 
+  @include tablet {
+    max-width: 280px;
+  }
+
+  @include mobile {
+    margin: 10px auto;
+  }
+
   .trophy {
     margin-bottom: 24px;
     width: 100px;
