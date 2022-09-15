@@ -5,6 +5,17 @@ const Career = () => (
   <section id="career">
     <ul className="timeline">
       <li>
+        <div className="flag-l">
+          <h3>January 2021 - Current</h3>
+          <b>HubSpot</b>
+          <code>Software Engineer Engineer</code>
+          <small>Cambridge, MA</small>
+          <p>
+            Built features for upmarket admins to configure and manage users and assets
+          </p>
+        </div>
+      </li>
+      <li>
         <div className="flag-r">
           <h3>September 2019 - December 2019</h3>
           <b>Sumo Logic</b>

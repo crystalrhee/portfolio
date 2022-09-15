@@ -12,8 +12,6 @@ const AboutPage = () => (
       <h3>Crystal Rhee</h3>
       <p>email</p>
       <h3>crystal.rhee@gmail.com</h3>
-      <p>phone number</p>
-      <h3>857-202-0428</h3>
       <p>website</p>
       <h3>crystalrhee.github.io</h3>
     </div>
