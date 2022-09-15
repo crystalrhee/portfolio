@@ -1,0 +1,62 @@
+@import "global.scss";
+
+#about {
+  display: flex;
+  justify-content: center;
+
+  @include mobile {
+    display: block;
+  }
+}
+
+.about-right {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+
+  @include mobile {
+    border-top: 1px solid $primary;
+    margin: 20px 0 0 0;
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+      margin-bottom: 40px;
+  }
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include mobile {
+    align-items: center;
+    text-align: center;
+  }
+
+  .avatar {
+    height: 120px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 120px;
+    img {
+      border: 5px solid $secondary;
+      border-radius: 50%;
+      box-shadow: 1px 1px 5px #ccc;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  p {
+    font-size: small;
+    font-weight: 900;
+    margin: 0;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,104 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+body {
+  background-color: $background;
+}
+
+main {
+  background-color: $white;
+  box-shadow: 1px 1px 5px #ccc;
+  margin: 70px auto;
+  padding-bottom: 70px;
+  width: 1024px;
+
+  @include tablet {
+    margin: 0;
+    width: 100%;
+	}
+
+	@include mobile {
+    margin: 70px 0;
+		width: 100%;
+	}
+}
+
+section {
+  padding: 30px;
+  position: relative;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+
+  li {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+h1,
+h2,
+h3,
+p {
+  color: $dark;
+  font-family: Source Sans Pro, sans-serif;
+  line-height: 2.34rem;
+  margin: 0 0 0.56rem 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 200;
+  text-rendering: optimizeLegibility;
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: 200;
+  text-rendering: optimizeLegibility;
+  font-size: 1.51572rem;
+}
+
+h3 {
+  font-weight: 200;
+  text-rendering: optimizeLegibility;
+  font-size: 1rem;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+button,
+.button {
+  background: $primary;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  color: $white;
+  display: block;
+  transition: all 0.3s;
+  text-align: center;
+  text-transform: uppercase;
+
+  &:active {
+    opacity: 0.9;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}

@@ -1,0 +1,165 @@
+@import "global.scss";
+
+header,
+footer {
+  padding: 30px;
+}
+
+footer {
+  max-width: 1024px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profile {
+  align-items: center;
+  background-color: $secondary;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 70px;
+  width: 825px;
+
+  @include tablet {
+    padding: 0;
+		width: 100%;
+	}
+
+	@include mobile {
+    background-color: $white;
+    display: block;
+    padding: 0;
+		width: 100%;
+	}
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 230px;
+  margin-left: 60px;
+  width: 230px;
+
+  @include tablet {
+    height: 130px;
+    width: 130px
+	}
+
+	@include mobile {
+    height: 100px;
+    margin: 0 auto 45px auto;
+    width: 100px
+	}
+
+  img {
+    border: 10px solid white;
+    border-radius: 50%;
+    height: 100%;
+    margin: -10px;
+    width: 100%;
+
+    @include tablet {
+      border-width: 5px;
+      margin: 0;
+    }
+
+    @include mobile {
+      border: none;
+      margin: 0;
+    }
+  }
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+
+  @include tablet {
+    text-align: center;
+    align-items: flex-end;
+    margin-left: 10%;
+  }
+
+  @include mobile {
+    margin-left: 5px;
+    text-align: center;
+    align-items: center;
+  }
+
+  #name {
+    font-weight: 400;
+    font-size: 2.75rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+    @include tablet {
+      font-size: 1.35rem;
+    }
+  
+    @include mobile {
+      font-size: 30px;
+    }
+  }
+  p {
+    margin: 0;
+
+    @include tablet {
+      text-align: right;
+    }
+
+    @include mobile {
+      line-height: 1.3rem;
+      font-size: 14px;
+    }
+  }
+  a,
+  span {
+    margin: 0 5px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  .button {
+    margin: 10px 0 0 0;
+    padding: 10px;
+    text-decoration: none;
+    width: 90px;
+
+    @include tablet {
+      font-size: 14px;
+      padding: 5px;
+      width: 60px;
+      margin-bottom: 24px;
+    }
+  
+    @include mobile {
+      font-size: 14px;
+      padding: 5px;
+      width: 60px;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+.social {
+  margin-top: 10px;
+  i {
+    background-color: $primary;
+    border-radius: 50%;
+    color: $white;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    transition: all ease 0.5s;
+    width: 25px;
+    &.active {
+      &:hover {
+        filter: opacity(50%);
+      }
+    }
+    &.inactive {
+      background-color: #a9a9a9;
+      cursor: default;
+    }
+  }
+}
